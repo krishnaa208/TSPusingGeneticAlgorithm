@@ -8,11 +8,11 @@ var cx
 var cy;
 
 var cities = [];
-var totalCities = 7;
-var popSize = 100;
+var totalCities = 15;
+var popSize = 200;
 var population = [];
 var fitness = [];
-var totalGeneration = 10;
+var totalGeneration = 1000;
 var mutationRate = 0.01;
 
 var recordDistance = Infinity;
