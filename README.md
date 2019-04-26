@@ -1,6 +1,7 @@
 # TSPusingGeneticAlgorithm
 Optimizing Travelling Salesman problem using Genetic Algorithm
 * Demo (https://krishnaa208.github.io/TSPusingGeneticAlgorithm/)
+
 ## To Run the project :
 
 1. git clone https://github.com/krishnaa208/TSPusingGeneticAlgorithm
