@@ -1,0 +1,92 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script language="javascript" type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+  <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="util.js"></script>
+  <script language="javascript" type="text/javascript" src="ga.js"></script>
+  <script language="javascript" type="text/javascript" src="city.js"></script>
+
+
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      --color: rgb(146, 173, 146)
+    }
+
+    .table {
+      width: 1024;
+    }
+
+    .btn {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="canvas"></div>
+  <table class="table table-dark table-bordered">
+
+    <tr>
+      <td>Generation</td>
+      <td id="generationNo">0</td>
+      <td>Number of Generation </td>
+      <td>
+        <input class="form-control" id="noOfGeneration" type="text" />
+      </td>
+
+    </tr>
+    <tr>
+      <td>Current Distance</td>
+      <td id="currentGeneration">0</td>
+      <td>Mutation Rate </td>
+      <td>
+        <input id="mutationRate" type="range" step="0.01" min="0" max="1" value="0.01" />
+        <span id="mutationRateShow"></span>
+
+      </td>
+
+    </tr>
+    <tr>
+      <td>Optimized Distance</td>
+      <td id="optimizedDistance">0</td>
+      <td>Number Of Cities</td>
+      <td>
+        <input class="form-control" id="noOfCities" type="text" />
+      </td>
+
+    </tr>
+    <tr>
+
+      <td colspan="2" id="startbtn"><button class="btn btn-info">Start</button></td>
+
+      <td>Population Size</td>
+      <td>
+        <input class="form-control" id="populationSize" type="text" />
+      </td>
+
+    </tr>
+
+  </table>
+  <table id="finalRoute" class="table table-dark table-bordered">
+
+  </table>
+
+</body>
+
+</html>
