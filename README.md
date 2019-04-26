@@ -1,7 +1,7 @@
 # TSPusingGeneticAlgorithm
 Optimizing Travelling Salesman problem using Genetic Algorithm
 
-##To Run the project :##
+## To Run the project :
 
 1. git clone https://github.com/krishnaa208/TSPusingGeneticAlgorithm
 2. cd TSPusingGeneticAlgorithm
@@ -12,7 +12,7 @@ Optimizing Travelling Salesman problem using Genetic Algorithm
 4. Visit link and adjust differed parameters 
 5. Click on Start button
 
-##About the Project:##
+## About the Project:
 
 * different parameters for genetic algorithm can easily be adjusted with gui
 * by default max no of cities is 24 but you can add more cities into cities.csv file
