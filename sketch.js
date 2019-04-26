@@ -93,13 +93,6 @@ function start() {
   loop();
 }
 
-function animation(route){
-  for (var i = 0; i < route.length; i++) {
-    var n = route[i]
-    route.push(cities[n])
-  }
-
-}
 
 function showRoute() {
 
@@ -127,8 +120,6 @@ function showRoute() {
 
   }
   select('#finalRoute').html(htmlStr);
-  //console.log(htmlStr);
-  animation(route);
 
 }
 

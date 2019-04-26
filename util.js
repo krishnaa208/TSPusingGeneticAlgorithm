@@ -24,15 +24,6 @@ function mercY(lat, type = 'd') {
     var c = PI - log(b);
     return a * c;
 }
-// function mercX(lon,type='d') {
-//     return ((lon+180)*(ww/360));
-// }
-// function mercY(lat,type='d') {
-//     lat = radians(lat)
-//     mercN = log(tan((PI/4)+(lat/2)));
-//     y  = (hh/2)-(ww*mercN/(2*PI));
-//     return y;
-// }
 
 function swap(a, i, j) {
     var temp = a[i];
@@ -41,7 +32,7 @@ function swap(a, i, j) {
 }
 
 function loadCsv() {
-    return loadStrings('./project.csv');
+    return loadStrings('./cities.csv');
 }
 
 function loadCities(csvData, numberOfCities, cx, cy) {
